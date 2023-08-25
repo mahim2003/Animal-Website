@@ -11,21 +11,33 @@ function Navbar() {
   };
   return (
     <div className="navbar">
+      <div className="navbar-left">
         
-      <h3>WILDSTATISTICS</h3>  
-        
-        <div className={openLinks ? "nright" : "right"} >
-            <Link to="/">Home</Link>
-            <Link to="/cities">Cities</Link>
-            <Link to="/about">About</Link>
-            <Link to="/contact">Contact</Link>
-            <Link to="/explore">Explore</Link>
-            </div>
+        <h3>WILDSTATISTICS</h3>  
+      </div>
+      <div className="navbar-right">
         <button className="icon" onClick={toggleNavbar}>
-          <FaBars/>               
-        </button>
-        
-      
+            <FaBars/>               
+          </button>
+          
+          <ul className={openLinks ? "open" : ""} >
+              <li>
+                <Link to="/">Home</Link>
+              </li>
+              <li>
+                <Link to="/cities">Cities</Link>
+              </li>
+              <li>
+                <Link to="/about">About</Link>
+              </li>
+              <li>
+                <Link to="/contact">Contact</Link>
+              </li>
+              <li>
+                <Link to="/explore">Explore</Link>
+              </li>
+          </ul>
+      </div>              
     </div>
   )
 }
