@@ -1,6 +1,6 @@
 import React from 'react'
 import bgvideo from '../assets/bgimage.mp4'
-import "../App.css";
+import "../styles/Navbar.css";
 import Navbar from "../components/Navbar";
 
 function Home() {

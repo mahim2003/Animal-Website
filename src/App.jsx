@@ -6,7 +6,7 @@ import Cities from './pages/Cities';
 import Contact from './pages/Contact';
 import Explore from './pages/Explore';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import "./App.css";
+import "./styles/Navbar.css";
 const App= () => {
 
   return (
