@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import logo from '../assets/logo-color.png';
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 import "../styles/Navbar.css";
 import {FaBars} from "react-icons/fa";
 
@@ -22,19 +22,19 @@ function Navbar() {
           
           <ul className={openLinks ? "open" : ""} >
               <li>
-                <Link to="/">Home</Link>
+                <NavLink to="/">Home</NavLink>
               </li>
               <li>
-                <Link to="/cities">Cities</Link>
+                <NavLink to="/cities">Cities</NavLink>
               </li>
               <li>
-                <Link to="/about">About</Link>
+                <NavLink to="/about">About</NavLink>
               </li>
               <li>
-                <Link to="/contact">Contact</Link>
+                <NavLink to="/contact">Contact</NavLink>
               </li>
               <li>
-                <Link to="/explore">Explore</Link>
+                <NavLink to="/explore">Explore</NavLink>
               </li>
           </ul>
       </div>              

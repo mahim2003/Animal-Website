@@ -5,6 +5,10 @@
   display:flex;
 }*/
 
+.navbar ul li a.active{
+  color:red;
+
+}
 .navbar {
   background-color: black; 
   justify-content: space-between; 
@@ -13,11 +17,6 @@
   margin-top:10px;
   height:30px;
 }
-/*.navbar .right{
- 
-  align-items: flex-start;
-  justify-content: flex-end;
-}*/
 
 
 .navbar h3 {
@@ -127,6 +126,7 @@
   .navbar ul li a {
       text-align:right;
       padding:0.75rem 0;
+      color:darkmagenta;
   }
   .navbar ul li a:before{
     border-top:0.05px solid turquoise;
