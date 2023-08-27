@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 function Cities() {
   return (
     <div>
-      <h1>hey</h1>
+      <h1>Page Under Construction</h1>
     </div>
   )
 }

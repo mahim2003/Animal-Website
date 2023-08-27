@@ -7,6 +7,7 @@ import Contact from './pages/Contact';
 import Explore from './pages/Explore';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import "./styles/Navbar.css";
+import "./styles/App.css";
 const App= () => {
 
   return (
