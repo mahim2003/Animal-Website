@@ -10,7 +10,7 @@ import {Earth} from "../components/earth";
 
 const CanvasContainer = styled.div`
   width:100%;
-  height:calc(100vh-50px);
+  height:100vh;
 `;
 
 function Home() {
