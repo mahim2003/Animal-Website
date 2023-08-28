@@ -11,13 +11,17 @@ import {Earth} from "../components/earth";
 const CanvasContainer = styled.div`
   width:100%;
   height:100vh;
+  @media only screen and (max-width: 768px) {
+    width: 90%;
+  }
+  
 `;
 
 function Home() {
   return (
     <>
       <div className="video1">
-        <video src={bgvideo} autoPlay loop muted class="video-bg"/>
+        <video src={bgvideo} autoPlay loop muted className="video-bg"/>
       </div>
       <CanvasContainer>
         <Canvas>
