@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from "../components/Navbar";
 
-function Cities() {
+function Projects() {
   return (
     <div>
       <h1>Page Under Construction</h1>
@@ -9,4 +9,4 @@ function Cities() {
   )
 }
 
-export default Cities
+export default Projects

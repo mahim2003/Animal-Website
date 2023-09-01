@@ -1,13 +1,13 @@
 import React, {useState}from 'react';
-import EarthDayMap from "../../assets/textures/8k_earth_daymap.jpg";
-import EarthNormalMap from "../../assets/textures/8k_earth_normal_map.jpg";
-import EarthSpecularMap from "../../assets/textures/8k_earth_specular_map.jpg";
-import EarthCloudsMap from "../../assets/textures/8k_earth_clouds.jpg";
+import EarthDayMap from "../assets/textures/8k_earth_daymap.jpg";
+import EarthNormalMap from "../assets/textures/8k_earth_normal_map.jpg";
+import EarthSpecularMap from "../assets/textures/8k_earth_specular_map.jpg";
+import EarthCloudsMap from "../assets/textures/8k_earth_clouds.jpg";
 import {TextureLoader} from "three";
 import {useLoader, useFrame} from "@react-three/fiber";
 import {OrbitControls} from "@react-three/drei";
 import * as THREE from "three";
-import "../../styles/Home.css";
+
 
 
 
@@ -54,7 +54,7 @@ export function Earth(props) {
             <sphereGeometry args={[sphereSize,32,32]} />
             <meshPhongMaterial specularMap={specularMap}/>
             <meshStandardMaterial map={colorMap} normalMap={normalMap} metalness={0.3} roughness={0.7} />
-            <OrbitControls 
+            *<OrbitControls 
                 enableZoom={true} 
                 enablePan={true} 
                 enableRotate={true} 
@@ -63,7 +63,7 @@ export function Earth(props) {
                 rotateSpeed={0.4} 
                 autoRotate={true}
                 
-            />
+              />
         </mesh>    
     </>;
 }

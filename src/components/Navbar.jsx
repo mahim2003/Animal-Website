@@ -13,7 +13,7 @@ function Navbar() {
     <div className="navbar">
       <div className="navbar-left">
         
-        <h3>WILDSTATISTICS</h3>  
+        <h3>MAHIM CHAUDHARY</h3>  
       </div>
       <div className="navbar-right">
         <button className="icon" onClick={toggleNavbar}>
@@ -25,16 +25,13 @@ function Navbar() {
                 <NavLink to="/">Home</NavLink>
               </li>
               <li>
-                <NavLink to="/cities">Cities</NavLink>
-              </li>
-              <li>
                 <NavLink to="/about">About</NavLink>
               </li>
               <li>
-                <NavLink to="/contact">Contact</NavLink>
+                <NavLink to="/projects">Projects</NavLink>
               </li>
               <li>
-                <NavLink to="/explore">Explore</NavLink>
+                <NavLink to="/contact">Contact</NavLink>
               </li>
           </ul>
       </div>              

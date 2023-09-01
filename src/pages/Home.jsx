@@ -1,16 +1,17 @@
-import React from 'react'
-import bgvideo from '../assets/bgimage.mp4'
+import React from 'react';
+import bgvideo from '../assets/bgimage.mp4';
 import "../styles/Navbar.css";
 import Navbar from "../components/Navbar";
-import "../styles/Home.css";
 import{Canvas} from "@react-three/fiber";
 import { Suspense } from 'react';
 import styled from "styled-components";
-import {Earth} from "../components/earth";
+import {Earth} from "../components/Earth";
+
 
 const CanvasContainer = styled.div`
   width:100%;
   height:100vh;
+  overflow: hidden;
   @media only screen and (max-width: 768px) {
     width: 90%;
   }
