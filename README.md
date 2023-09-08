@@ -1,2 +1,2 @@
-# Animal-Website
-A website designed to test your knowledge and spread awareness about the animal kingdom and the campaigns associated with it.
+# Portfolio Website
+A website designed to give you an insight into my projects, my work experience, and an opportunity to reach out to me.
