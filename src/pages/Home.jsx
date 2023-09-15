@@ -38,7 +38,7 @@ z-index:99;
 `;
 const Title = styled.div`
 margin:0;
-color:limegreen;
+color:skyblue;
 font-weight:700;
 font-size:50px;
 text-align:center;
