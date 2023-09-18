@@ -11,30 +11,28 @@ function Navbar() {
   };
   return (
     <div className="navbar">
-      <div className="navbar-left">
-        
-        <h3>MAHIM CHAUDHARY</h3>  
-      </div>
-      <div className="navbar-right">
-        <button className="icon" onClick={toggleNavbar}>
-            <FaBars/>               
-          </button>
+      <h3>MAHIM CHAUDHARY</h3>  
+      
+      
+      <button className="icon" onClick={toggleNavbar}>
+        <FaBars/>               
+      </button>
           
-          <ul className={openLinks ? "open" : ""} >
-              <li>
-                <NavLink to="/">Home</NavLink>
-              </li>
-              <li>
-                <NavLink to="/projects">Projects</NavLink>
-              </li>
-              <li>
-                <NavLink to="/about">About</NavLink>
-              </li>
-              <li>
-                <NavLink to="/contact">Contact</NavLink>
-              </li>
-          </ul>
-      </div>              
+      <ul className={openLinks ? "open" : ""} >
+        <li>
+          <NavLink to="/">Home</NavLink>
+        </li>
+        <li>
+          <NavLink to="/projects">Projects</NavLink>
+        </li>
+        <li>
+          <NavLink to="/about">About</NavLink>
+        </li>
+        <li>
+          <NavLink to="/contact">Contact</NavLink>
+        </li>
+      </ul>
+                    
     </div>
   )
 }
