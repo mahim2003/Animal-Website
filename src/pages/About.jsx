@@ -1,7 +1,11 @@
 import React from 'react';
 import "../styles/About.css";
 import FlipCard from '../components/FlipCard';
-import MPic from '../assets/MahimPic.jpg';
+import SFU from '../assets/about/SFUpic.jpg';
+import Burnaby from '../assets/about/Burnaby.jpg';
+import cjsf from '../assets/about/cjsf.jpg';
+import lang from '../assets/about/languages.jpg';
+
 
 function About() {
   return (
@@ -11,7 +15,34 @@ function About() {
       
       </div>
       <div className="bottomSection">
-        <FlipCard />
+        
+        <FlipCard frontText="Which University do I attend?" 
+         backContent={{
+          text: "Simon Fraser University",
+          image: SFU,
+        }}
+        />
+        <FlipCard frontText="Where do I live?" 
+          backContent={{
+          text: "Burnaby, British Columbia",
+          image: Burnaby,
+        }}
+        
+        />
+        <FlipCard frontText="What languages can I code in?" 
+          backContent={{
+          text: "",
+          image: lang,
+        }}
+       
+        />
+        <FlipCard frontText="Where do I currently work?" 
+          backContent={{
+          text: "Front-end Web-designer, CJSF 90.1 FM",
+          image: cjsf,
+        }}
+        
+        />
       </div>
       
     </div>         

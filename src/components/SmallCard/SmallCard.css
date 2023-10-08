@@ -30,16 +30,24 @@
 
 
 .card-front{
-    background-color: #73d0ff;
+    background-color:chocolate;
     z-index:1;
     text-align:center;
     
 }
 
 .card-back{
-    background-color: #ffad66;
+    background-color:black;
     transform: rotateY(180deg);
     z-index:2;
+    display:flex;
+    flex-direction: column;
+}
+
+.card-back .back-image{
+    height:100%;
+    width:100%;
+    margin-bottom:20px;
 }
 
 .flip-exit{
@@ -66,4 +74,13 @@
 
 .flip-enter-done{
    transform: rotateY(0deg);
+}
+
+@media only screen and (max-width:768px){
+    .card-front,.card-back{
+        font-size:15px;
+    }
+    .card-back .back-text{
+        font-size:12px;
+    }
 }
