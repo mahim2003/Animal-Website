@@ -50,7 +50,7 @@ function Projects() {
           title="Banking Website"
           imageUrl={img5}
           body="A responsive and scalable website created using JavaScript, HTML and CSS."
-          link="https://mahimchaudhary.com/"/>
+          link="https://github.com/mahim2003/Banking-Website"/>
           
         </div>
       </div>

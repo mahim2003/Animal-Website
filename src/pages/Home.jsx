@@ -34,6 +34,7 @@ z-index:99;
   width: 90%;
   top:0;
   padding-top:20%;
+  background-color:transparent;
 }
 `;
 const Title = styled.div`
@@ -43,7 +44,7 @@ font-weight:700;
 font-size:50px;
 text-align:center;
 @media only screen and (max-width: 768px) {
-font-size:35px;
+font-size:30px;
 margin-top:150px;
 }
 `;

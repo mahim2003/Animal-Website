@@ -4,7 +4,7 @@
     transform-style:preserve-3d;
     border-radius: 5px;
     position: relative;
-    border:5px solid white;
+    border:5px solid maroon;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
     user-select: none;
     cursor:pointer;
@@ -22,7 +22,7 @@
     align-items:center;
     font-family:Montserrat ;
     font-weight: 800;
-    font-size: 30px;
+    font-size: 25px;
     color:white;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.9);
     position: absolute;
@@ -30,14 +30,14 @@
 
 
 .card-front{
-    background-color:chocolate;
+    background-color:transparent;
     z-index:1;
     text-align:center;
     
 }
 
 .card-back{
-    background-color:black;
+    background-color:transparent;
     transform: rotateY(180deg);
     z-index:2;
     display:flex;

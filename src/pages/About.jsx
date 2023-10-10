@@ -5,6 +5,7 @@ import SFU from '../assets/about/SFUpic.jpg';
 import Burnaby from '../assets/about/Burnaby.jpg';
 import cjsf from '../assets/about/cjsf.jpg';
 import lang from '../assets/about/languages.jpg';
+import aboutbg from '../assets/aboutbg.mp4';
 
 
 function About() {
@@ -12,6 +13,7 @@ function About() {
     <div className='about'>
       <div className='topSection'>
         <h4>Click on the cards to know more about me</h4>
+        <video src={aboutbg} autoPlay loop muted className='aboutbg'/>
       
       </div>
       <div className="bottomSection">
