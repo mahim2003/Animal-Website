@@ -6,6 +6,8 @@ import { Suspense } from 'react';
 import styled from "styled-components";
 import {Earth} from "../components/Earth";
 import { NavLink } from 'react-router-dom';
+import LoadingSpinner from '../components/LoadingSpinner';
+
 
 
 const CanvasContainer = styled.div`
@@ -114,7 +116,7 @@ function Home() {
           </ProjectButton>
         </FrontContainer>
         <Canvas>
-          <Suspense fallback={null}>
+          <Suspense fallback={<LoadingSpinner/>}>
             <Earth/>
           </Suspense>
         </Canvas>
