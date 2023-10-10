@@ -40,7 +40,7 @@ export function Earth(props) {
     
     return <>
         {/*<ambientLight intensity={0.2}/>*/}
-        <pointLight color="#f6f3ea" position={[2,0,3]} intensity={9.2}/>
+        <pointLight color="#f6f3ea" position={[2,0,3]} intensity={41.8}/>
         <mesh ref={cloudsRef} >
             <sphereGeometry args ={[sphereSize+0.005,32,32]}/>
             <meshPhongMaterial 
