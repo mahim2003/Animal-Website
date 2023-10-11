@@ -103,7 +103,7 @@ function Home() {
   return (
     <>
       <div className="video1">
-        <video src={bgvideo} autoPlay loop muted className="video-bg"/>
+        <video src={bgvideo} autoPlay loop muted playsInline className="video-bg"/>
 
       </div>
       <CanvasContainer>
