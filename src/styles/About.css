@@ -11,10 +11,6 @@
     overflow: hidden; 
   }
 
-  .topSection .image3{
-    display:none;
-  }
-
 .topSection h4{
     margin-top:30px;
     color:white ;
@@ -34,36 +30,5 @@
         font-size:14px
     }
 
-    .aboutbg{
-        display:none;
-    }
-    .topSection .image3{
-    z-index: -1;
-    top: 0;
-    left: 0;
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-    overflow: hidden; 
-    display:block;
-    }
 }
 
-/*.about .image-container{
-    position: absolute;
-    right:200px;
-    top:80px;
-    width:150px;
-    height:150px;
-    border-radius: 50%;
-    overflow:hidden;
-    margin-right: 20px;
-    
-}
-.about .image-container img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    
-}*/
