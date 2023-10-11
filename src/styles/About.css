@@ -22,13 +22,23 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-top:150px;
+    margin-top:70px;
+    
 }
 
 @media only screen and (max-width:768px){
     .topSection h4{
         font-size:14px
     }
-
+    .bottomSection{
+     
+        flex-direction: column;
+        
+        overflow-y: auto;
+    }
+    .about{
+        max-height: 80vh;
+        overflow-y: auto;
+    }
 }
 

@@ -76,11 +76,11 @@
    transform: rotateY(0deg);
 }
 
-@media only screen and (max-width:768px){
+/*@media only screen and (max-width:768px){
     .card-front,.card-back{
         font-size:15px;
     }
     .card-back .back-text{
         font-size:12px;
     }
-}
+}*/
