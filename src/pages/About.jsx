@@ -6,6 +6,7 @@ import Burnaby from '../assets/about/Burnaby.jpg';
 import cjsf from '../assets/about/cjsf.jpg';
 import lang from '../assets/about/languages.jpg';
 import aboutbg from '../assets/aboutbg.mp4';
+import picture from '../assets/picture.png';
 
 
 function About() {
@@ -14,6 +15,7 @@ function About() {
       <div className='topSection'>
         <h4>Click on the cards to know more about me</h4>
         <video src={aboutbg} autoPlay loop muted className='aboutbg'/>
+        <img className='image3' src={picture} alt="Fallback Image" />
       
       </div>
       <div className="bottomSection">

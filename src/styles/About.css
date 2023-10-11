@@ -11,6 +11,10 @@
     overflow: hidden; 
   }
 
+  .topSection .image3{
+    display:none;
+  }
+
 .topSection h4{
     margin-top:30px;
     color:white ;
@@ -28,6 +32,21 @@
 @media only screen and (max-width:768px){
     .topSection h4{
         font-size:14px
+    }
+
+    .aboutbg{
+        display:none;
+    }
+    .topSection .image3{
+    z-index: -1;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    overflow: hidden; 
+    display:block;
     }
 }
 

@@ -8,6 +8,7 @@ import img2 from "../assets/projects/ImageProcessor.jpg";
 import img3 from "../assets/projects/QuoteGenerator.jpg";
 import img4 from "../assets/projects/SurveyForm.jpg";
 import img5 from "../assets/projects/BankingWebsite.jpg";
+import projectspic from "../assets/projpic2.jpg";
 
 
 function Projects() {
@@ -15,6 +16,7 @@ function Projects() {
     <>
       <div className="video2" >
         <video src={firebg} autoPlay loop muted className="bgcards" />
+        {/*<img className='image2' src={projectspic} alt="Fallback Image 2" />*/}
       </div>
       <div className="cardy-container">
         <div className="container-row1">

@@ -7,6 +7,7 @@ import styled from "styled-components";
 import {Earth} from "../components/Earth";
 import { NavLink } from 'react-router-dom';
 import LoadingSpinner from '../components/LoadingSpinner';
+import bg from '../assets/bgpicHome.jpg';
 
 
 
@@ -96,11 +97,15 @@ border-radius:5px;
 }
 `;
 
+
+
 function Home() {
   return (
     <>
       <div className="video1">
         <video src={bgvideo} autoPlay loop muted className="video-bg"/>
+        <img className='image' src={bg} alt="Fallback Image" />
+
       </div>
       <CanvasContainer>
         <FrontContainer>
