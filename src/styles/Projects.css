@@ -1,5 +1,5 @@
 
-.bgcards{
+.video2{
     z-index: -1;
     top: 0;
     left: 0;
@@ -8,6 +8,7 @@
     height: 100vh;
     object-fit: cover;
     overflow: hidden;
+    background: linear-gradient(to right , #000, #09203F);
 }
 
 .cardy-container{

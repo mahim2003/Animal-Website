@@ -16,7 +16,7 @@ function Projects() {
   return (
     <>
       <div className="video2" >
-        <video src={firebg} autoPlay loop muted playsInline className="bgcards" />
+        
       </div>
       <div className="cardy-container">
         <div className="container-row1">
